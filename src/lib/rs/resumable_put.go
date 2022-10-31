@@ -4,9 +4,9 @@ import (
 	"encoding/base64"
 	"encoding/json"
 	"fmt"
+	"go-implement-your-object-storage/src/lib/objectstream"
+	"go-implement-your-object-storage/src/lib/utils"
 	"io"
-	"lib/objectstream"
-	"lib/utils"
 	"log"
 	"net/http"
 )

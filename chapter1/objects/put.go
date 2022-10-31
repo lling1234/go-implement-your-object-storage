@@ -7,9 +7,11 @@ import (
 	"os"
 	"strings"
 )
-
+var FileDIr string = "/home/ling/go/src/go-implement-your-object-storage/c1"
 func put(w http.ResponseWriter, r *http.Request) {
-	f, e := os.Create(os.Getenv("STORAGE_ROOT") + "/objects/" +
+	log.Println("r.Body",r.Body)
+	log.Println("w",w)
+	f, e := os.Create(FileDIr + "/objects/" +
 		strings.Split(r.URL.EscapedPath(), "/")[2])
 	if e != nil {
 		log.Println(e)

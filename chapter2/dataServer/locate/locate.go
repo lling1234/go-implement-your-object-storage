@@ -1,7 +1,7 @@
 package locate
 
 import (
-	"lib/rabbitmq"
+	"go-implement-your-object-storage/src/lib/rabbitmq"
 	"os"
 	"strconv"
 )

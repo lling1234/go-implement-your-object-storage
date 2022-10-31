@@ -2,9 +2,9 @@ package locate
 
 import (
 	"encoding/json"
-	"lib/rabbitmq"
-	"lib/rs"
-	"lib/types"
+	"go-implement-your-object-storage/src/lib/rabbitmq"
+	"go-implement-your-object-storage/src/lib/rs"
+	"go-implement-your-object-storage/src/lib/types"
 	"os"
 	"time"
 )

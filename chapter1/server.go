@@ -1,13 +1,13 @@
 package main
 
 import (
-	"./objects"
 	"log"
 	"net/http"
-	"os"
+
+	"go-implement-your-object-storage/chapter1/objects"
 )
 
 func main() {
 	http.HandleFunc("/objects/", objects.Handler)
-	log.Fatal(http.ListenAndServe(os.Getenv("LISTEN_ADDRESS"), nil))
+	log.Fatal(http.ListenAndServe("2323", nil))
 }
