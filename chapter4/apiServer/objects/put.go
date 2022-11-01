@@ -2,7 +2,7 @@ package objects
 
 import (
 	"go-implement-your-object-storage/src/lib/es"
-	"lib/utils"
+	"go-implement-your-object-storage/src/lib/utils"
 	"log"
 	"net/http"
 	"strings"

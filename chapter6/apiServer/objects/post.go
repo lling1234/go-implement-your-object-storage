@@ -1,11 +1,11 @@
 package objects
 
 import (
-	"../heartbeat"
-	"../locate"
-	"lib/es"
-	"lib/rs"
-	"lib/utils"
+	"go-implement-your-object-storage/chapter5/apiServer/heartbeat"
+	"go-implement-your-object-storage/chapter5/apiServer/locate"
+	"go-implement-your-object-storage/src/lib/es"
+	"go-implement-your-object-storage/src/lib/rs"
+	"go-implement-your-object-storage/src/lib/utils"
 	"log"
 	"net/http"
 	"net/url"

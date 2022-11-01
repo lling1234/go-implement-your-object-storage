@@ -1,10 +1,11 @@
 package objects
 
 import (
-	"../heartbeat"
-	"../locate"
 	"fmt"
-	"lib/rs"
+	"go-implement-your-object-storage/chapter5/apiServer/locate"
+	"go-implement-your-object-storage/chapter5/apiServer/heartbeat"
+	"go-implement-your-object-storage/src/lib/rs"
+
 )
 
 func GetStream(hash string, size int64) (*rs.RSGetStream, error) {

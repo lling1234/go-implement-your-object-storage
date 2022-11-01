@@ -2,7 +2,7 @@ package versions
 
 import (
 	"encoding/json"
-	"lib/es"
+	"go-implement-your-object-storage/src/lib/es"
 	"log"
 	"net/http"
 	"strings"

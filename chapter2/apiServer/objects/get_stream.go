@@ -1,10 +1,10 @@
 package objects
 
 import (
-	"../locate"
 	"fmt"
+	"go-implement-your-object-storage/chapter2/apiServer/locate"
+	"go-implement-your-object-storage/src/lib/objectstream"
 	"io"
-	"lib/objectstream"
 )
 
 func getStream(object string) (io.Reader, error) {

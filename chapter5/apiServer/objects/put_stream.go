@@ -1,9 +1,9 @@
 package objects
 
 import (
-	"../heartbeat"
 	"fmt"
-	"lib/rs"
+	"go-implement-your-object-storage/chapter5/apiServer/heartbeat"
+	"go-implement-your-object-storage/src/lib/rs"
 )
 
 func putStream(hash string, size int64) (*rs.RSPutStream, error) {

@@ -1,10 +1,10 @@
 package temp
 
 import (
-	"../locate"
 	"compress/gzip"
+	"go-implement-your-object-storage/chapter7/dataServer/locate"
+	"go-implement-your-object-storage/src/lib/utils"
 	"io"
-	"lib/utils"
 	"net/url"
 	"os"
 	"strconv"

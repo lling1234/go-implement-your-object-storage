@@ -1,9 +1,9 @@
 package objects
 
 import (
-	"../heartbeat"
 	"fmt"
-	"lib/objectstream"
+	"go-implement-your-object-storage/chapter2/apiServer/heartbeat"
+	"go-implement-your-object-storage/src/lib/objectstream"
 )
 
 func putStream(object string) (*objectstream.PutStream, error) {

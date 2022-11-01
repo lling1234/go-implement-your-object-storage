@@ -1,8 +1,8 @@
 package objects
 
 import (
-	"../locate"
-	"lib/utils"
+	"go-implement-your-object-storage/chapter4/dataServer/locate"
+	"go-implement-your-object-storage/src/lib/utils"
 	"log"
 	"net/url"
 	"os"

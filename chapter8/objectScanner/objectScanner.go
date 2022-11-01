@@ -1,9 +1,9 @@
 package main
 
 import (
-	"../apiServer/objects"
-	"lib/es"
-	"lib/utils"
+	"go-implement-your-object-storage/chapter8/apiServer/objects"
+	"go-implement-your-object-storage/src/lib/es"
+	"go-implement-your-object-storage/src/lib/utils"
 	"log"
 	"os"
 	"path/filepath"

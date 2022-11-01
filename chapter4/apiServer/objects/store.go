@@ -1,10 +1,10 @@
 package objects
 
 import (
-	"../locate"
 	"fmt"
+	"go-implement-your-object-storage/chapter5/apiServer/locate"
+	"go-implement-your-object-storage/src/lib/utils"
 	"io"
-	"lib/utils"
 	"net/http"
 	"net/url"
 )

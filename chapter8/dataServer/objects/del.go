@@ -1,11 +1,12 @@
 package objects
 
 import (
-	"../locate"
 	"net/http"
 	"os"
 	"path/filepath"
 	"strings"
+	"go-implement-your-object-storage/chapter8/dataServer/locate"
+
 )
 
 func del(w http.ResponseWriter, r *http.Request) {

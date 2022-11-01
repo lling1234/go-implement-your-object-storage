@@ -1,8 +1,8 @@
 package objects
 
 import (
-	"lib/es"
-	"lib/utils"
+	"go-implement-your-object-storage/src/lib/es"
+	"go-implement-your-object-storage/src/lib/utils"
 	"log"
 	"net/http"
 	"net/url"

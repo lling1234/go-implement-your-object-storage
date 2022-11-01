@@ -1,7 +1,7 @@
 package temp
 
 import (
-	"../locate"
+	"go-implement-your-object-storage/chapter4/dataServer/locate"
 	"os"
 )
 

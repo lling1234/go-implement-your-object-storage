@@ -1,11 +1,11 @@
 package main
 
 import (
-	"./heartbeat"
-	"./locate"
-	"./objects"
-	"./temp"
-	"./versions"
+	"go-implement-your-object-storage/chapter6/apiServer/heartbeat"
+	"go-implement-your-object-storage/chapter6/apiServer/locate"
+	"go-implement-your-object-storage/chapter6/apiServer/objects"
+	"go-implement-your-object-storage/chapter6/apiServer/temp"
+	"go-implement-your-object-storage/chapter6/apiServer/versions"
 	"log"
 	"net/http"
 	"os"

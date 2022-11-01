@@ -1,8 +1,8 @@
 package temp
 
 import (
-	"../locate"
-	"lib/utils"
+	"go-implement-your-object-storage/chapter6/dataServer/locate"
+	"go-implement-your-object-storage/src/lib/utils"
 	"net/url"
 	"os"
 	"strconv"

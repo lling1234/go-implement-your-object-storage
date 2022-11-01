@@ -2,9 +2,9 @@ package objects
 
 import (
 	"fmt"
+	"go-implement-your-object-storage/src/lib/es"
+	"go-implement-your-object-storage/src/lib/utils"
 	"io"
-	"lib/es"
-	"lib/utils"
 	"log"
 	"net/http"
 	"net/url"

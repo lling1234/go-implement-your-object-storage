@@ -2,7 +2,7 @@ package temp
 
 import (
 	"fmt"
-	"lib/rs"
+	"go-implement-your-object-storage/src/lib/rs"
 	"log"
 	"net/http"
 	"strings"

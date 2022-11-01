@@ -1,11 +1,11 @@
 package temp
 
 import (
-	"../locate"
+	"go-implement-your-object-storage/chapter6/apiServer/locate"
+	"go-implement-your-object-storage/src/lib/es"
+	"go-implement-your-object-storage/src/lib/rs"
+	"go-implement-your-object-storage/src/lib/utils"
 	"io"
-	"lib/es"
-	"lib/rs"
-	"lib/utils"
 	"log"
 	"net/http"
 	"net/url"

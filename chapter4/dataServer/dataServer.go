@@ -1,10 +1,10 @@
 package main
 
 import (
-	"./heartbeat"
-	"./locate"
-	"./objects"
-	"./temp"
+	"go-implement-your-object-storage/chapter6/dataServer/heartbeat"
+	"go-implement-your-object-storage/chapter6/dataServer/locate"
+	"go-implement-your-object-storage/chapter6/dataServer/objects"
+	"go-implement-your-object-storage/chapter6/dataServer/temp"
 	"log"
 	"net/http"
 	"os"

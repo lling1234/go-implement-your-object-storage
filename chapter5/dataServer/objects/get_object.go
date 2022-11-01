@@ -1,9 +1,9 @@
 package objects
 
 import (
-	"../locate"
 	"crypto/sha256"
 	"encoding/base64"
+	"go-implement-your-object-storage/chapter8/dataServer/locate"
 	"log"
 	"net/url"
 	"os"
